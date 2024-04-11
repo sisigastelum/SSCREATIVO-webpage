@@ -1,8 +1,36 @@
-style> h1
+
 :root{
    --Azul:#3F7E89;
    --Amarillo:#DFC442;
    --Negro:#000000;
    --amarillocafe:#AB9B57;
-
+}
+@font-face {
+    font-family: menu;
+    src: url("Fonts/Inter/Inter-VariableFont_slnt\,wght.ttf");
+}
+@font-face {
+    font-family: titulo;
+    src: url("Fonts/Inknut_Antiqua/InknutAntiqua-Regular.ttf");
+}
+@font-face {
+    font-family: cuerpo;
+    src: url("Fonts/Jacques_Francois/JacquesFrancois-Regular.ttf");
+}
+@font-face {
+    font-family: intermedium;
+    src: url("./Fonts/Inter/static/Inter-Medium.ttf");
+}
+@font-face {
+    font-family: cuerpo2;
+    src: url("Fonts/Istok_Web/IstokWeb-Regular.ttf");
+}
+.menu1 {
+    text-align: center;
+}
+.menu1 h1 {
+    display: inline;
+    font-family: intermedium;
+    padding: 20px;
+    font-size: 16px;
 }
