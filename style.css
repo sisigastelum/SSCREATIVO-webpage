@@ -5,8 +5,11 @@
    --Negro:#000000;
    --amarillocafe:#AB9B57;
 }
+* {
+    text-align: center;
+}
 @font-face {
-    font-family: menu;
+    font-family: menus;
     src: url("Fonts/Inter/Inter-VariableFont_slnt\,wght.ttf");
 }
 @font-face {
@@ -27,6 +30,8 @@
 }
 .menu1 {
     text-align: center;
+    font-family: intermedium;
+    color: black;
 }
 .menu1 h1 {
     display: inline;
@@ -34,3 +39,33 @@
     padding: 20px;
     font-size: 16px;
 }
+.boton1 { 
+    background-color: var(--Azul);
+    font-family: intermedium;
+    width: 445px;
+    height: 125px;
+    clip-path: ellipse(60px 30px);
+}
+.whoweare {
+    display: inline-block;
+    width: 500px;
+    text-align: center;
+}
+.tendenciesblog {
+    display: inline-block;
+    width: 500px;
+    text-align: center;
+}
+.whoweare img { 
+    width: 400px;
+    color: #AB9B57;
+}
+.tendenciesblog img { 
+    width: 400px;
+    color: #AB9B57;
+}
+ .titulo {
+color: #AB9B57;
+}
+
+
