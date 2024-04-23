@@ -41,10 +41,13 @@
 }
 .boton1 { 
     background-color: var(--Azul);
-    font-family: intermedium;
+    font-family: cuerpo;
     width: 445px;
     height: 125px;
     clip-path: ellipse(60px 30px);
+    color: #AB9B57;
+    font-size: xx-large;
+    font-weight: lighter;
 }
 .whoweare {
     display: inline-block;
@@ -67,5 +70,18 @@
  .titulo {
 color: #AB9B57;
 }
-
-
+.whoweare h2 {
+    color: #AB9B57;
+}
+.tendenciesblog h2 {
+    color: #AB9B57;
+}
+.gallery { display:grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat(3, 10vw);
+grid-gap: 15px;}
+.gallery img { width: 100%;
+height: 100%;
+object-fit: cover;}
+.grid { width: 30%;}
+.info { width: 60%;}
