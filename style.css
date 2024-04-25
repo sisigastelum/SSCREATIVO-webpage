@@ -76,12 +76,17 @@ color: #AB9B57;
 .tendenciesblog h2 {
     color: #AB9B57;
 }
-.gallery { display:grid;
+.gallery { 
+    display:grid;
 grid-template-columns: repeat(2,1fr);
-grid-template-rows: repeat(3, 10vw);
-grid-gap: 15px;}
-.gallery img { width: 100%;
+grid-template-rows: repeat(3, 25vw);
+grid-gap: 15px;
+}
+.gallery img { 
+    width: 100%;
 height: 100%;
-object-fit: cover;}
-.grid { width: 30%;}
-.info { width: 60%;}
+object-fit: cover;
+}
+.info { width: 20%;}
+.grid { width: 50%;
+padding: 5%;}
