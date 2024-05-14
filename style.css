@@ -8,6 +8,7 @@
 * {
     text-align: center;
 }
+
 @font-face {
     font-family: menus;
     src: url("Fonts/Inter/Inter-VariableFont_slnt\,wght.ttf");
@@ -49,6 +50,27 @@
     font-size: xx-large;
     font-weight: lighter;
 }
+.boton2 { 
+    background-color: var(--Azul);
+    font-family: cuerpo;
+    width: 445px;
+    height: 125px;
+    clip-path: ellipse(60px 30px);
+    color: white;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+.boton3 { 
+    
+    background-color: var(--Azul);
+    font-family: cuerpo;
+    width: 445px;
+    height: 125px;
+    clip-path: ellipse(60px 30px);
+    color: white;
+    font-size: large;
+    font-weight: lighter;
+}
 .whoweare {
     display: inline-block;
     width: 500px;
@@ -66,15 +88,18 @@
 .tendenciesblog img { 
     width: 400px;
     color: #AB9B57;
+    text-align: center;
 }
  .titulo {
 color: #AB9B57;
 }
 .whoweare h2 {
     color: #AB9B57;
+    text-align: center;
 }
 .tendenciesblog h2 {
     color: #AB9B57;
+    text-align: center;
 }
 .gallery { 
     display:grid;
@@ -90,3 +115,4 @@ object-fit: cover;
 .info { width: 20%;}
 .grid { width: 50%;
 padding: 5%;}
+
