@@ -116,3 +116,21 @@ object-fit: cover;
 .grid { width: 50%;
 padding: 5%;}
 
+ .segmento4{
+color: #000000;
+text-align: left;
+ }
+
+ .segmento5{
+    color: #000000;
+    text-align: center
+     }
+     .segmento6{
+        color: #000000;
+        text-align: right
+         }
+.info {
+    text-align: right;
+    color: #000000;
+   font-family: cuerpo;
+}
